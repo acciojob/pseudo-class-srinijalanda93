@@ -7,19 +7,20 @@
 	font-size:20px;
 }
 #container::before {
-  content: "Before Element ";
+  content: "Before Element";
   color: rgb(255, 0, 0);
   font-size: 20px;
   position: absolute;
   top: 0;
-  left:0px; /* Adjust the value to control the distance from the container */
+  left:-17px;
+		/* Adjust the value to control the distance from the container */
 }
 
 #container::after {
-  content: " After Element";
+  content: "After Element";
   color: rgb(255, 0, 0);
   font-size: 20px;
   position: absolute;
   bottom: 0;
-  right: 20px; /* Adjust the value to control the distance from the container */
+  right:-10px; /* Adjust the value to control the distance from the container */
 }
