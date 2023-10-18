@@ -8,7 +8,7 @@
 }
 #container::before {
   content: "Before Element ";
-  color: #f00;
+  color: rgb(255, 0, 0);
   font-size: 20px;
   position: absolute;
   top: 0;
@@ -17,7 +17,7 @@
 
 #container::after {
   content: " After Element";
-  color: #f00;
+  color: rgb(255, 0, 0);
   font-size: 20px;
   position: absolute;
   bottom: 0;
